@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+#hyra{
+    /* text-decoration: none; */
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0802A3;
+
+}
+nav ul li{
+    /* margin: auto; */
+}
+#home{
+    margin-left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #121214;
+}
+#home:hover{
+    text-decoration: underline;
+}
+#Teachings{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #121214;
+    margin-left: 20px;
+    /* column-gap: 30px; */
+}
+#Teachings:hover{
+    text-decoration: underline;
+
+}
+#signup{
+    margin-left: 400px;    
+}
+button{
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+}
+.top-first{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#Discover{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #121214;
+    margin-top: 70px;
+}
+#islam{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:  #464647;
+    margin-top: 20px;
+
+}
+.first img{
+    margin-top: 40px;
+}
+#choose{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #121214;
+    /* margin: auto; */
+    margin-top: 100px;
+}
+.second-item{
+    background-color: #0802A3;
+    width: 170px;
+    height: 270px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 10px;
+}
+#app{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #E5E4FF;
+    padding-top: 20px;
+}
+.firt-item{
+    display: flex;
+    column-gap: 70px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.second-item:nth-child(2){
+    /* border: 2px solid green; */
+    background-color: #FF7676;
+
+}
+.second-item:nth-child(3){
+    /* border: 2px solid blue; */
+    background-color: #FF4B91;
+
+}
+.second-item:nth-child(4){
+    /* border: 2px solid red; */
+    background-color: #FFCD4B;
+
+}
+#Prophets{
+    border: 1px solid #0802A3;
+    padding: 120px 50px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.board{
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+}
+#Prophets a{
+    text-decoration: none;
+    color: #4F0101;
+
+}
