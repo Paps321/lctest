@@ -138,3 +138,17 @@ button{
     color: #4F0101;
 
 }
+#sign-up-bar{
+    /* padding-left: 40px; */
+    margin-left: 150px;
+    /* display: none; */
+}
+#icon{
+    margin-left: 200px;
+}
+#create{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #121214;
+}
